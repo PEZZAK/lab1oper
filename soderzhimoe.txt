@@ -1,0 +1,124 @@
+
+===== Время сбора =====
+Wed Oct  7 11:39:26 AM UTC 2026
+
+===== Пользователь =====
+uid=1000(vboxuser) gid=1000(vboxuser) groups=1000(vboxuser),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),100(users),114(lpadmin)
+(скрипт запущен без прав root: часть данных может быть недоступна)
+
+===== Система =====
+Linux UbuntuLinux 7.0.0-31-generic #31~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon Aug 10 09:38:02 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+
+===== Аптайм =====
+ 11:39:26 up 13 min,  1 user,  load average: 1.15, 2.35, 1.77
+
+===== Версия ОС =====
+PRETTY_NAME="Ubuntu 24.04.3 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.3 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=noble
+LOGO=ubuntu-logo
+
+===== Процессор =====
+Architecture:                            x86_64
+CPU op-mode(s):                          32-bit, 64-bit
+Address sizes:                           39 bits physical, 48 bits virtual
+Byte Order:                              Little Endian
+CPU(s):                                  4
+On-line CPU(s) list:                     0-3
+Vendor ID:                               GenuineIntel
+Model name:                              13th Gen Intel(R) Core(TM) i7-13620H
+CPU family:                              6
+Model:                                   186
+Thread(s) per core:                      1
+Core(s) per socket:                      4
+Socket(s):                               1
+Stepping:                                2
+BogoMIPS:                                5836.78
+Flags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 avx2 bmi2 invpcid rdseed adx clflushopt sha_ni arat md_clear flush_l1d arch_capabilities
+Hypervisor vendor:                       KVM
+Virtualization type:                     full
+L1d cache:                               128 KiB (4 instances)
+L1i cache:                               256 KiB (4 instances)
+L2 cache:                                8 MiB (4 instances)
+L3 cache:                                96 MiB (4 instances)
+NUMA node(s):                            1
+NUMA node0 CPU(s):                       0-3
+Vulnerability Gather data sampling:      Not affected
+Vulnerability Ghostwrite:                Not affected
+Vulnerability Indirect target selection: Mitigation; Aligned branch/return thunks
+Vulnerability Itlb multihit:             Not affected
+Vulnerability L1tf:                      Not affected
+Vulnerability Mds:                       Not affected
+Vulnerability Meltdown:                  Not affected
+Vulnerability Mmio stale data:           Not affected
+Vulnerability Old microcode:             Not affected
+Vulnerability Reg file data sampling:    Vulnerable: No microcode
+Vulnerability Retbleed:                  Not affected
+Vulnerability Spec rstack overflow:      Not affected
+Vulnerability Spec store bypass:         Vulnerable
+Vulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:                Mitigation; Retpolines; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI SW loop, KVM SW loop
+Vulnerability Srbds:                     Not affected
+Vulnerability Tsa:                       Not affected
+Vulnerability Tsx async abort:           Not affected
+Vulnerability Vmscape:                   Not affected
+
+===== Нагрузка за 5 секунд (vmstat; столбец wa — ожидание диска) =====
+procs -----------memory---------- ---swap-- -----io---- -system-- -------cpu-------
+ r  b   swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa st gu
+ 9  0      0 639264  20500 3658004    0    0  4811  5357 6759   26 28 11 60  1  0  0
+ 1  0      0 634220  20552 3658276    0    0   168   292 8799 12629 29  9 62  0  0  0
+ 0  0      0 637928  20552 3656792    0    0     0     0 7276 9386 21  7 72  0  0  0
+ 2  0      0 637672  20552 3656792    0    0     0     0 3741 3663  5  3 92  0  0  0
+ 2  0      0 637672  20576 3656764    0    0     0   512 4576 4529  7  5 86  2  0  0
+
+===== Топ-10 по CPU =====
+    PID USER     %CPU %MEM COMMAND
+  32506 vboxuser  100  0.0 ps
+   2071 vboxuser 38.6  7.3 gnome-shell
+   2725 vboxuser 36.9  9.8 firefox
+   3450 vboxuser 21.3  6.7 Isolated Web Co
+   4638 root      2.9  0.8 snapd
+  32413 vboxuser  2.5  0.9 gnome-terminal-
+      1 root      1.6  0.2 systemd
+    587 root      1.1  0.0 kworker/u17:3-loop6
+  32486 vboxuser  0.9  0.5 tracker-extract
+     40 root      0.7  0.0 kworker/u17:0-events_unbound
+
+===== Топ-10 по памяти =====
+    PID USER     %MEM %CPU COMMAND
+   2725 vboxuser  9.8 36.9 firefox
+   2071 vboxuser  7.3 38.6 gnome-shell
+   3450 vboxuser  6.7 21.3 Isolated Web Co
+   2911 vboxuser  2.2  0.1 Privileged Cont
+   3267 vboxuser  1.5  0.0 WebExtensions
+   3447 vboxuser  1.5  0.2 Isolated Servic
+   3628 vboxuser  1.1  0.0 Web Content
+   3718 vboxuser  1.1  0.0 Web Content
+   3712 vboxuser  1.1  0.0 Web Content
+   2621 vboxuser  1.0  0.1 gjs
+
+===== Диски: место (df -h) =====
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           581M  1.8M  579M   1% /run
+/dev/sda2        20G  8.7G  9.9G  47% /
+tmpfs           2.9G     0  2.9G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           581M  120K  580M   1% /run/user/1000
+
+===== Диски: inode (df -i) =====
+Filesystem      Inodes  IUsed   IFree IUse% Mounted on
+tmpfs           742518   1116  741402    1% /run
+/dev/sda2      1310720 216623 1094097   17% /
+tmpfs           742518      1  742517    1% /dev/shm
+tmpfs           742518      4  742514    1% /run/lock
+tmpfs           148503    166  148337    1% /run/user/1000
